@@ -1,0 +1,1 @@
+// empty file for the hook that uses the weatherClient API

@@ -1,0 +1,1 @@
+// file to access the weatherClient via HTTP
