@@ -5,8 +5,6 @@ export const Wisdom = () => {
     const [question, setQuestion] = useState('');
     const { response, isLoading, error, askQuestion } = useChatGPT();
 
-    console.log("Values: ", JSON.stringify({response, isLoading, error}))
-
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (question.trim()) {
