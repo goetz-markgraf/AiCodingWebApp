@@ -84,9 +84,9 @@ Close all open windows and open copilot in Agent mode.
 Use this prompt:
 
 ```
-I want to have a component, that asks questions to ChatGPT. You can assume that I have the env variable OPENAI_API_KEY set.
+I want to have a simple component, that asks questions to an OpenAI compatible LLM. The URL is https://router.eu.requesty.ai/v1. You can assume that I have the env variable VITE_REQUESTY_API_KEY set.
 Create an API function that calls the OpenAI Api.
-Use the model gpt-4o.
+Use the model tensorx/glm-5.2.
 Create a React Hook that uses the API.
 Change the component in `Wisdom.tsx` to include an input field and a button. If the user presses the button, the content of the input field is sent to the hook. Its return value is displayed beneath the input field.
 Don't use axios.
